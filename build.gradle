@@ -28,6 +28,7 @@ publishing {
     }
     publications {
         gpr(MavenPublication) {
+            artifactId = 'eloutil'
             from(components.java)
         }
     }
